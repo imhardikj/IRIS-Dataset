@@ -13,16 +13,22 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 The iris dataset contains measurements for 150 iris flowers from three different species.
 
 The three classes in the Iris dataset:
+    
+    Iris-setosa (n=50)
+    Iris-versicolor (n=50)
+    Iris-virginica (n=50)
 
-Iris-setosa (n=50)
-Iris-versicolor (n=50)
-Iris-virginica (n=50)
 The four features of the Iris dataset:
+  
+    sepal length in cm
+    sepal width in cm
+    petal length in cm
+    petal width in cm
 
-sepal length in cm
-sepal width in cm
-petal length in cm
-petal width in cm
-How to Get the data
+We will perform prediction using Suport Vector Machines (SVM).
 
-**Use seaborn to get the iris data by using : iris = sns.load_dataset('iris') **
+# How to Get the data
+
+Use seaborn to get the iris data by using : 
+        
+     iris = sns.load_dataset('iris') 
